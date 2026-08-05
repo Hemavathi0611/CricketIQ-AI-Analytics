@@ -1,0 +1,91 @@
+============================================================
+MATCHES DATASET REPORT
+============================================================
+
+Shape:
+(1095, 20)
+
+Columns:
+['id', 'season', 'city', 'date', 'match_type', 'player_of_match', 'venue', 'team1', 'team2', 'toss_winner', 'toss_decision', 'winner', 'result', 'result_margin', 'target_runs', 'target_overs', 'super_over', 'method', 'umpire1', 'umpire2']
+
+Info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1095 entries, 0 to 1094
+Data columns (total 20 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   id               1095 non-null   int64  
+ 1   season           1095 non-null   object 
+ 2   city             1044 non-null   object 
+ 3   date             1095 non-null   object 
+ 4   match_type       1095 non-null   object 
+ 5   player_of_match  1090 non-null   object 
+ 6   venue            1095 non-null   object 
+ 7   team1            1095 non-null   object 
+ 8   team2            1095 non-null   object 
+ 9   toss_winner      1095 non-null   object 
+ 10  toss_decision    1095 non-null   object 
+ 11  winner           1090 non-null   object 
+ 12  result           1095 non-null   object 
+ 13  result_margin    1076 non-null   float64
+ 14  target_runs      1092 non-null   float64
+ 15  target_overs     1092 non-null   float64
+ 16  super_over       1095 non-null   object 
+ 17  method           21 non-null     object 
+ 18  umpire1          1095 non-null   object 
+ 19  umpire2          1095 non-null   object 
+dtypes: float64(3), int64(1), object(16)
+memory usage: 171.2+ KB
+
+
+Missing Values:
+id                    0
+season                0
+city                 51
+date                  0
+match_type            0
+player_of_match       5
+venue                 0
+team1                 0
+team2                 0
+toss_winner           0
+toss_decision         0
+winner                5
+result                0
+result_margin        19
+target_runs           3
+target_overs          3
+super_over            0
+method             1074
+umpire1               0
+umpire2               0
+
+First Five Rows:
+       id   season        city        date match_type player_of_match                                       venue                        team1                        team2                  toss_winner toss_decision                       winner   result  result_margin  target_runs  target_overs super_over method    umpire1         umpire2
+0  335982  2007/08   Bangalore  2008-04-18     League     BB McCullum                       M Chinnaswamy Stadium  Royal Challengers Bangalore        Kolkata Knight Riders  Royal Challengers Bangalore         field        Kolkata Knight Riders     runs          140.0        223.0          20.0          N    NaN  Asad Rauf     RE Koertzen
+1  335983  2007/08  Chandigarh  2008-04-19     League      MEK Hussey  Punjab Cricket Association Stadium, Mohali              Kings XI Punjab          Chennai Super Kings          Chennai Super Kings           bat          Chennai Super Kings     runs           33.0        241.0          20.0          N    NaN  MR Benson      SL Shastri
+2  335984  2007/08       Delhi  2008-04-19     League     MF Maharoof                            Feroz Shah Kotla             Delhi Daredevils             Rajasthan Royals             Rajasthan Royals           bat             Delhi Daredevils  wickets            9.0        130.0          20.0          N    NaN  Aleem Dar  GA Pratapkumar
+3  335985  2007/08      Mumbai  2008-04-20     League      MV Boucher                            Wankhede Stadium               Mumbai Indians  Royal Challengers Bangalore               Mumbai Indians           bat  Royal Challengers Bangalore  wickets            5.0        166.0          20.0          N    NaN   SJ Davis       DJ Harper
+4  335986  2007/08     Kolkata  2008-04-20     League       DJ Hussey                                Eden Gardens        Kolkata Knight Riders              Deccan Chargers              Deccan Chargers           bat        Kolkata Knight Riders  wickets            5.0        111.0          20.0          N    NaN  BF Bowden     K Hariharan
+
+Last Five Rows:
+           id season       city        date   match_type  player_of_match                                                 venue                        team1                  team2          toss_winner toss_decision                 winner   result  result_margin  target_runs  target_overs super_over method                umpire1               umpire2
+1090  1426307   2024  Hyderabad  2024-05-19       League  Abhishek Sharma  Rajiv Gandhi International Stadium, Uppal, Hyderabad                 Punjab Kings    Sunrisers Hyderabad         Punjab Kings           bat    Sunrisers Hyderabad  wickets            4.0        215.0          20.0          N    NaN            Nitin Menon             VK Sharma
+1091  1426309   2024  Ahmedabad  2024-05-21  Qualifier 1         MA Starc                      Narendra Modi Stadium, Ahmedabad          Sunrisers Hyderabad  Kolkata Knight Riders  Sunrisers Hyderabad           bat  Kolkata Knight Riders  wickets            8.0        160.0          20.0          N    NaN           AK Chaudhary              R Pandit
+1092  1426310   2024  Ahmedabad  2024-05-22   Eliminator         R Ashwin                      Narendra Modi Stadium, Ahmedabad  Royal Challengers Bengaluru       Rajasthan Royals     Rajasthan Royals         field       Rajasthan Royals  wickets            4.0        173.0          20.0          N    NaN  KN Ananthapadmanabhan  MV Saidharshan Kumar
+1093  1426311   2024    Chennai  2024-05-24  Qualifier 2    Shahbaz Ahmed              MA Chidambaram Stadium, Chepauk, Chennai          Sunrisers Hyderabad       Rajasthan Royals     Rajasthan Royals         field    Sunrisers Hyderabad     runs           36.0        176.0          20.0          N    NaN            Nitin Menon             VK Sharma
+1094  1426312   2024    Chennai  2024-05-26        Final         MA Starc              MA Chidambaram Stadium, Chepauk, Chennai          Sunrisers Hyderabad  Kolkata Knight Riders  Sunrisers Hyderabad           bat  Kolkata Knight Riders  wickets            8.0        114.0          20.0          N    NaN          J Madanagopal           Nitin Menon
+
+Statistical Summary:
+                  id season    city        date match_type player_of_match         venue                        team1           team2     toss_winner toss_decision          winner   result  result_margin  target_runs  target_overs super_over method       umpire1 umpire2
+count   1.095000e+03   1095    1044        1095       1095            1090          1095                         1095            1095            1095          1095            1090     1095    1076.000000  1092.000000   1092.000000       1095     21          1095    1095
+unique           NaN     17      36         823          8             291            58                           19              19              19             2              19        4            NaN          NaN           NaN          2      1            62      62
+top              NaN   2013  Mumbai  2008-04-26     League  AB de Villiers  Eden Gardens  Royal Challengers Bangalore  Mumbai Indians  Mumbai Indians         field  Mumbai Indians  wickets            NaN          NaN           NaN          N    D/L  AK Chaudhary  S Ravi
+freq             NaN     76     173           2       1029              25            77                          135             138             143           704             144      578            NaN          NaN           NaN       1081     21           115      83
+mean    9.048283e+05    NaN     NaN         NaN        NaN             NaN           NaN                          NaN             NaN             NaN           NaN             NaN      NaN      17.259294   165.684066     19.759341        NaN    NaN           NaN     NaN
+std     3.677402e+05    NaN     NaN         NaN        NaN             NaN           NaN                          NaN             NaN             NaN           NaN             NaN      NaN      21.787444    33.427048      1.581108        NaN    NaN           NaN     NaN
+min     3.359820e+05    NaN     NaN         NaN        NaN             NaN           NaN                          NaN             NaN             NaN           NaN             NaN      NaN       1.000000    43.000000      5.000000        NaN    NaN           NaN     NaN
+25%     5.483315e+05    NaN     NaN         NaN        NaN             NaN           NaN                          NaN             NaN             NaN           NaN             NaN      NaN       6.000000   146.000000     20.000000        NaN    NaN           NaN     NaN
+50%     9.809610e+05    NaN     NaN         NaN        NaN             NaN           NaN                          NaN             NaN             NaN           NaN             NaN      NaN       8.000000   166.000000     20.000000        NaN    NaN           NaN     NaN
+75%     1.254062e+06    NaN     NaN         NaN        NaN             NaN           NaN                          NaN             NaN             NaN           NaN             NaN      NaN      20.000000   187.000000     20.000000        NaN    NaN           NaN     NaN
+max     1.426312e+06    NaN     NaN         NaN        NaN             NaN           NaN                          NaN             NaN             NaN           NaN             NaN      NaN     146.000000   288.000000     20.000000        NaN    NaN           NaN     NaN

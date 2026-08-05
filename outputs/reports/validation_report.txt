@@ -1,0 +1,18 @@
+============================================================
+DATA VALIDATION REPORT
+============================================================
+
+Duplicate Matches : 0
+Duplicate Deliveries : 0
+
+Invalid Overs : 0
+Invalid Balls : 0
+Negative Runs : 0
+Invalid Wickets : 0
+
+Unique Batters : 673
+Unique Bowlers : 530
+Unique Teams : 19
+Unique Venues : 58
+
+Season Range : 2007/08 to 2024

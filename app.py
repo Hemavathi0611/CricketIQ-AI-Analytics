@@ -75,95 +75,84 @@ col1, col2 = st.columns(2)
 
 with col1:
 
-    previous_match_runs = (
-        st.number_input(
-            "Previous-Match Runs",
-            min_value=0.0,
-            value=50.0
-        )
+    previous_match_runs = st.number_input(
+        "Previous-Match Runs",
+        min_value=0,
+        value=50,
+        step=1
     )
 
-    last_3_match_average = (
-        st.number_input(
-            "Last 3-Match Average",
-            min_value=0.0,
-            value=45.0
-        )
+    last_3_match_average = st.number_input(
+        "Last 3-Match Average",
+        min_value=0.0,
+        value=45.0,
+        step=0.1
     )
 
-    last_5_match_average = (
-        st.number_input(
-            "Last 5-Match Average",
-            min_value=0.0,
-            value=42.0
-        )
+    last_5_match_average = st.number_input(
+        "Last 5-Match Average",
+        min_value=0.0,
+        value=42.0,
+        step=0.1
     )
 
-    last_10_match_average = (
-        st.number_input(
-            "Last 10-Match Average",
-            min_value=0.0,
-            value=40.0
-        )
+    last_10_match_average = st.number_input(
+        "Last 10-Match Average",
+        min_value=0.0,
+        value=40.0,
+        step=0.1
     )
 
-    last_5_match_std = (
-        st.number_input(
-            "Last 5-Match Score Consistency",
-            min_value=0.0,
-            value=15.0
-        )
+    last_5_match_std = st.number_input(
+        "Last 5-Match Score Consistency",
+        min_value=0.0,
+        value=15.0,
+        step=0.1
     )
 
-    career_average = (
-        st.number_input(
-            "Career Batting Average",
-            min_value=0.0,
-            value=33.0
-        )
+    career_average = st.number_input(
+        "Career Batting Average",
+        min_value=0.0,
+        value=33.0,
+        step=0.1
     )
 
 
 with col2:
 
-    matches_played = (
-        st.number_input(
-            "Matches Played",
-            min_value=0,
-            value=244
-        )
+    matches_played = st.number_input(
+        "Matches Played",
+        min_value=0,
+        value=244,
+        step=1
     )
 
-    balls_faced = (
-        st.number_input(
-            "Previous-Match Balls Faced",
-            min_value=0.0,
-            value=40.0
-        )
+    balls_faced = st.number_input(
+        "Previous-Match Balls Faced",
+        min_value=0,
+        value=40,
+        step=1
     )
 
-    fours = (
-        st.number_input(
-            "Previous-Match Fours",
-            min_value=0.0,
-            value=5.0
-        )
+    fours = st.number_input(
+        "Previous-Match Fours",
+        min_value=0,
+        value=5,
+        step=1
     )
 
-    sixes = (
-        st.number_input(
-            "Previous-Match Sixes",
-            min_value=0.0,
-            value=2.0
-        )
+    sixes = st.number_input(
+        "Previous-Match Sixes",
+        min_value=0,
+        value=2,
+        step=1
     )
 
-    strike_rate = (
-        st.number_input(
-            "Previous-Match Strike Rate",
-            min_value=0.0,
-            value=125.0
-        )
+    strike_rate = st.number_input(
+        "Previous-Match Strike Rate",
+        min_value=0.0,
+        value=125.0,
+        step=0.1
     )
 
 

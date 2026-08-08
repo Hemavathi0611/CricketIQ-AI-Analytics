@@ -89,9 +89,9 @@ pip install -r requirements.txt
 
 Run the Streamlit app:
 
-```bash
-streamlit run app.py
-```
+## 🚀 Live Demo
+
+👉 [CricketIQ AI Analytics – Live Demo](https://cricketiq-ai-analytics.streamlit.app/)
 
 ## 👩‍💻 Developed By
 

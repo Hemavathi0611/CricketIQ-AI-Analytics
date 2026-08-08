@@ -47,7 +47,7 @@ The project includes:
 
 ### Power BI Dashboard
 
-![Power BI Dashboard](screenshots/powerbi_dashboard.png)
+![Power BI Dashboard](screenshots/powerbi_dashboard_filtered.png)
 
 ### Streamlit Application
 
@@ -87,10 +87,10 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Run the Streamlit app:
+
 
 ## 🚀 Live Demo
-
+Run the Streamlit app:
 👉 [CricketIQ AI Analytics – Live Demo](https://cricketiq-ai-analytics.streamlit.app/)
 
 ## 👩‍💻 Developed By
